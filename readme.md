@@ -79,7 +79,7 @@ easy-settings/
 
 By default, a second-level directory is all you need to get started with your page. However, if you'd like to do some advanced configuration, see [Configuring Pages](#configuring-pages) for more information.
 
-## Creating Settings Sections
+## Creating Sections
 
 To create a section, first make sure you have created the page where your section will be. For more information on this process, check out [Creating Pages](#creating-pages).
 
