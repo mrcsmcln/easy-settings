@@ -1,5 +1,20 @@
 # Easy Settings
 
+ 1. [Installation](#installation)
+     1. [Standalone Plugin](#standalone-plugin)
+     2. [Part of a Theme](#part-of-a-theme)
+ 2. [Structure](#structure)
+ 3. [Naming](#naming)
+ 4. [Creating Pages](#creating-pages)
+ 5. [Creating Sections](#creating-sections)
+ 6. [Creating Fields](#creating-fields)
+ 7. [Supported Submenus](#supported-submenus)
+ 8. [Configuration](#configuration)
+     1. [Configuring Pages](#configuring-pages)
+     1. [Configuring sections](#configuring-sections)
+     1. [Configuring fields](#configuring-fields)
+ 9. [Helper Method and Properties](#helper-method-and-properties)
+
 ## Installation
 
 First, you will need to decide whether this will be a standalone plugin or part of a theme.
@@ -79,7 +94,7 @@ easy-settings/
 
 By default, a second-level directory is all you need to get started with your page. However, if you'd like to do some advanced configuration, see [Configuring Pages](#configuring-pages) for more information.
 
-## Creating Settings Sections
+## Creating Sections
 
 To create a section, first make sure you have created the page where your section will be. For more information on this process, check out [Creating Pages](#creating-pages).
 
