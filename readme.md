@@ -214,8 +214,8 @@ Configuring a field is a bit different from configuring a page or section, becau
 <input
     type="text"
     id="<?php echo esc_attr( $this->current_field ); ?>"
-    name="<?php echo esc_attr( "$this->current_option[$field]" ); ?>"
-    value="<?php echo isset( $this->fields[ $field ] ) ?
+    name="<?php echo esc_attr( "$this->current_option[$this->current_field]" ); ?>"
+    value="<?php echo isset( $this->fields[ $this->current_field ] ) ?
         esc_attr( $this->fields[ $this->current_field ] ) : ''; ?>"
 >
 ```
