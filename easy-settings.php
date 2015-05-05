@@ -20,8 +20,8 @@ class Easy_Settings {
 	 * @since Easy Settings 0.5
 	 * @var string
 	 */
-	const TYPE = 'plugin';
-	// const TYPE = 'theme';
+ 	// const TYPE = 'plugin';
+	const TYPE = 'theme';
 	
 	/**
 	 * The directory in which the settings will be stored. Applicable only when
@@ -234,7 +234,7 @@ class Easy_Settings {
 		if ( $field_file && filesize( $field_file ) ) {
 			include $field_file;
 		} else { ?>
-			<input type="text" id="<?php echo esc_attr( $this->current_field ); ?>" name="<?php echo esc_attr( "$this->current_option[$field]" ); ?>" value="<?php echo isset( $this->fields[ $field ] ) ? esc_attr( $this->fields[ $field ] ) : ''; ?>">
+			<input type="text" id="<?php echo esc_attr( $this->current_field ); ?>" name="<?php echo esc_attr( "$this->current_option[$this->current_field]" ); ?>" value="<?php echo isset( $this->fields[ $this->current_field ] ) ? esc_attr( $this->fields[ $this->current_field ] ) : ''; ?>">
 <?php	}
 	}
 	
